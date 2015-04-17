@@ -3,4 +3,4 @@ node_js:
   - 0.8
   - 0.10
   - 0.11 # development version to check future compatability
-script: node_modules/.bin/intern-runner config=tests/intern
+script: npm test
