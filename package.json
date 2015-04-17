@@ -1,0 +1,27 @@
+{
+  "name": "node-intern-test",
+  "version": "1.0.0",
+  "description": "A test repo for Intern using Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/intern-runner config=tests/intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EhevuTov/node-intern-test.git"
+  },
+  "keywords": [
+    "node",
+    "intern",
+    "test"
+  ],
+  "author": "James Gosnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EhevuTov/node-intern-test/issues"
+  },
+  "homepage": "https://github.com/EhevuTov/node-intern-test",
+  "devDependencies": {
+    "intern": "^2.2.2"
+  }
+}
